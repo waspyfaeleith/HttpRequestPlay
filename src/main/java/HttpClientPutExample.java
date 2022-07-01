@@ -6,6 +6,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+// Taken from the tutorial at https://techndeck.com/put-request-with-json-using-java-11-httpclient-api/
 public class HttpClientPutExample {
     public static void main(String[] args) {
         String putEndpoint = "http://dummy.restapiexample.com/api/v1/update/4710";
